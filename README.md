@@ -24,7 +24,7 @@
 
 > 베이커리 데이터의 탐색적 분석과 전처리
 
-[📝 노트북 보러가기](./1-bakery-transaction-eda)
+[📝 노트북 보러가기](./1-bakery-transaction-eda.ipynb)
 
 데이터: 2016년 10월 30일부터 2017년 4월 9일까지의 Edinburgh, Scotland 베이커리의 판매 데이터
 
@@ -53,7 +53,7 @@
 
 > 판매량이 높은 상품 사이의 연관규칙을 찾아 세트 상품으로 출시하면 좋을 조합을 찾아본다
 
-[📝 노트북 보러가기](./2-bakery-transaction-market-basket-analysis)
+[📝 노트북 보러가기](./2-bakery-transaction-market-basket-analysis.ipynb)
 
 세트 상품으로 출시하면 좋을 조합은 Cake와 Hot chocolate 또는 Tea, Spanish Brunch와 Coffee, Toast와 Coffee, Sandwich와 Tea이다.
 
@@ -63,7 +63,7 @@
 
 > Edinburgh, Scotland의 이벤트 데이터와 공휴일 데이터를 추가하여 베이커리 판매에 미치는 영향을 확인하고 판매량을 예측한다
 
-[📝 노트북 보러가기](./3-bakery-transaction-regression)
+[📝 노트북 보러가기](./3-bakery-transaction-regression.ipynb)
 
 - 베이커리의 일일 판매량을 예측하기 위한 최적의 모델은 다중 선형 회귀 모델이다.
 - 판매량에 가장 큰 영향을 주는 변수는 holiday 즉, 공휴일 변수이다.
@@ -79,7 +79,7 @@ Items = 8.46805389 Week_Day_Friday -12.95723347 Week_Day_Monday +  56.92043484 W
 
 ## 4. Decision Tree
 
-[📝 노트북 보러가기](./4-bakery-transaction-decision-tree)
+[📝 노트북 보러가기](./4-bakery-transaction-decision-tree.ipynb)
 
 - Week_Day_Saturday와 holiday가 예측에 있어서 가장 중요한 변수라고 볼 수 있다.
 - Regression과 비슷한 결과를 내고 있지만 예측 정확도는 떨어진다.
